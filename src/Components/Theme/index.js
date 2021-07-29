@@ -25,6 +25,10 @@ const theme = createMuiTheme({
   overrides: {
     MuiCssBaseline: {
       "@global": {
+        body: {
+          backgroundColor: "whitesmoke",
+        },
+
         ".justifyCenter": {
           display: "flex",
           justifyContent: "center",
